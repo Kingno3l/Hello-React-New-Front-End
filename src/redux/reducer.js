@@ -1,9 +1,9 @@
 // src/redux/reducer.js
 
-import { FETCH_GREETING_SUCCESS } from "./actions";
+import { FETCH_GREETING_SUCCESS } from './actions';
 
 const initialState = {
-  greeting: "",
+  greeting: '',
 };
 
 const reducer = (state = initialState, action) => {
